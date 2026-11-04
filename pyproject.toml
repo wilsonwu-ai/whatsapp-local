@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wa-local"
+version = "0.1.0"
+description = "Read-only WhatsApp CLI for macOS. Reads the local WhatsApp Desktop database. No network."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Wilson Wu" }]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+wa = "wa:main"
+
+[tool.setuptools]
+py-modules = ["wa"]

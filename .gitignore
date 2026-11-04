@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Never commit a real WhatsApp database or anything exported from one.
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+fixture/
+exports/
+*.md.out
+.DS_Store

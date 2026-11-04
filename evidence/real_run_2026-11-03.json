@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-03",
+  "whatsapp_version": "26.44.15",
+  "wa_version": "0.1.0",
+  "python": "3.12.4",
+  "macos": "26.6.2",
+  "doctor": {
+    "exit_code": 0,
+    "schema_ok": true,
+    "schema_missing_columns": 0,
+    "contacts_db_found": true,
+    "db_mb": 56.6,
+    "wal_mb": 7.2
+  },
+  "stats": {
+    "chats": 682,
+    "people_chats": 368,
+    "groups": 314,
+    "messages": 62653,
+    "sent_by_me": 13860,
+    "starred": 1,
+    "unread": 25302,
+    "chats_with_unread": 183,
+    "all_sessions_including_status_and_broadcast": 694,
+    "all_messages_including_status": 62654,
+    "oldest_message_year": 2018,
+    "newest_message_year": 2026,
+    "top_10_chat_message_counts": [
+      6196,
+      3163,
+      3023,
+      2423,
+      2367,
+      2355,
+      1583,
+      1476,
+      1375,
+      1296
+    ]
+  },
+  "search_common_word": {
+    "word": "the",
+    "matches": 16434,
+    "latency_ms_all_matches_runs": [
+      356,
+      352,
+      347
+    ],
+    "latency_ms_default_limit_50_runs": [
+      90,
+      84,
+      92
+    ]
+  },
+  "unread_redact": {
+    "exit_code": 0,
+    "json_exit_code": 0,
+    "chats_listed_default_limit": 25,
+    "latency_ms_json": 117,
+    "latency_ms_human": 116
+  },
+  "latency_ms": {
+    "doctor": 87,
+    "stats": 105
+  },
+  "latency_note": "wall time of a fresh python3 process, including copying the 56.6 MB database plus WAL to a private temp folder",
+  "live_db_unchanged": {
+    "ChatStorage.sqlite": true,
+    "ChatStorage.sqlite-wal": true,
+    "ChatStorage.sqlite-shm": true,
+    "method": "sha256 and mtime_ns of each file before and after all commands"
+  }
+}
